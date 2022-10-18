@@ -42,7 +42,7 @@ const About = () => {
           <p>
             Baigné dans l'informatique depuis mes jeunes années, je me suis d'abord orienté dans des études généralistes en sciences physiques. Après l'obtention de mon DUT en Mesures Physiques, j'ai terminé l'école 42 Paris début 2022. Mon domaine d'expertise s'est spécialisé dans les technologies du Web, bien que mes compétences s'étendent jusque dans le développement logiciel.
             Je suis aujourd'hui à la recherche d'un poste en tant développeur frontend, en télétravail uniquement.
-            <br /><br /> Au plaisir de discuter avec vous de vive voix !
+            <br /><br /> Au plaisir de discuter avec vous de vive voix!
           </p>
 
         </div>
