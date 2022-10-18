@@ -1,5 +1,6 @@
 header {
-  height: 100vh;
+  height: max-content;
+  /* min-height: 100vh; */
   padding-top: 7rem;
   overflow: hidden;
   /* border: 2px solid white; */
@@ -51,7 +52,8 @@ header {
 /* ME */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  position: absolute;
+  display: inline;
+  position:static;
   left: calc(50% - 11rem);
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
@@ -73,7 +75,7 @@ header {
 /* MEDIA QUERIES (MEDIUM) */
 @media screen and (max-width: 1024px) {
   header {
-    height: 75vh;
+    /* height: 75vh; */
   }
 }
 
@@ -93,10 +95,17 @@ header {
   }
 }
 
-/* MEDIA QUERIES (VERY SMALL) */
+/* MEDIA QUERIES (VERY SMALL - width) */
 @media screen and (max-width: 380px) {
   .me {
     width: 14rem;
     left: calc(50% - 7rem);
   }
 }
+
+/* MEDIA QUERIES (VERY SMALL - height) */
+/* @media screen and (max-height: 600px) {
+  .me {
+    display: none;
+  }
+} */
