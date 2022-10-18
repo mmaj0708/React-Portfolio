@@ -20,6 +20,7 @@
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  /* box-shadow: 4px 4px 0px 1px var(--color-primary-variant); */
 }
 
 .portfolio__item h3 {
@@ -28,8 +29,14 @@
 
 .portfolio__item-cta {
   display: flex;
+  justify-content: stretch;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
