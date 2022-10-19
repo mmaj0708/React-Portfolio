@@ -1,6 +1,5 @@
 header {
   height: max-content;
-  /* min-height: 100vh; */
   padding-top: 7rem;
   overflow: hidden;
   /* border: 2px solid white; */
@@ -73,22 +72,17 @@ header {
 }
 
 /* MEDIA QUERIES (MEDIUM) */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   header {
-    /* height: 75vh; */
+    height: 75vh;
   }
-}
+} */
 
 /* MEDIA QUERIES (SMALL) */
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
   }
-
-  /* .me {
-    width: 10rem;
-    left: calc(50% - 5rem);
-  } */
 
   .header__socials, .scroll__down {
     display: none;
@@ -102,10 +96,3 @@ header {
     left: calc(50% - 7rem);
   }
 }
-
-/* MEDIA QUERIES (VERY SMALL - height) */
-/* @media screen and (max-height: 600px) {
-  .me {
-    display: none;
-  }
-} */
