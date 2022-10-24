@@ -8,13 +8,6 @@ import IMG5 from '../../assets/kubernetes.png'
 
 const data = [
   {
-    id: 1,
-    image: IMG1,
-    title: 'React Portfolio',
-    github: 'https://github.com/mmaj0708/React-Portfolio',
-    demo: 'https://github.com/mmaj0708', 
-  },
-  {
     id: 2,
     image: IMG2,
     title: 'Transcendance',
@@ -29,17 +22,24 @@ const data = [
     demo: 'https://github.com/mmaj0708', 
   },
   {
-    id: 4,
-    image: IMG4,
-    title: 'Head Or Tails',
-    github: 'https://github.com/mmaj0708/HotGame',
-    demo: 'https://github.com/mmaj0708', 
-  },
-  {
     id: 5,
     image: IMG5,
     title: 'Ft_services',
     github: 'https://github.com/mmaj0708/ft_services',
+    demo: 'https://github.com/mmaj0708', 
+  },
+  {
+    id: 1,
+    image: IMG1,
+    title: 'React Portfolio',
+    github: 'https://github.com/mmaj0708/React-Portfolio',
+    demo: 'https://github.com/mmaj0708', 
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Head Or Tails',
+    github: 'https://github.com/mmaj0708/HotGame',
     demo: 'https://github.com/mmaj0708', 
   },
 ]

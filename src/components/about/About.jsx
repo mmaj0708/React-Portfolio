@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/about.jpg'
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+// import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
@@ -23,13 +23,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon' />
               <h5>Expérience</h5>
-              <small>+1 ans en freelance</small>
-            </article>
-
-            <article className="about__card">
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>+10 en France</small>
+              <small>+3 ans de formation</small>
             </article>
 
             <article className="about__card">
@@ -40,9 +34,11 @@ const About = () => {
           </div>
 
           <p>
-            Baigné dans l'informatique depuis mes jeunes années, je me suis d'abord orienté dans des études généralistes en sciences physiques. Après l'obtention de mon DUT en Mesures Physiques, j'ai terminé l'école 42 Paris début 2022. Je me suis ensuite spécialisé dans les technologies du Web, bien que mes compétences s'étendent jusque dans le développement logiciel.
-            Je suis aujourd'hui à la recherche d'un poste en tant développeur frontend, en télétravail uniquement.
-            <br /><br /> Au plaisir de discuter avec vous de vive voix!
+            Jeune développeur efficace sortant de l'école 42 Paris, je vois la programmation comme un outil avec le pouvoir de créer de grandes choses.
+            Je cherche ma première expérience comme Software Engineer au sein d'une entreprise dont je partage les valeurs.
+            Mes affinités vont principalement vers les domaines scientifiques ou la création.
+            <br /> <br />
+            Au plaisir de discuter avec vous de vive voix !
           </p>
 
         </div>
